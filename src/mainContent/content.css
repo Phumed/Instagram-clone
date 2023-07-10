@@ -1,0 +1,19 @@
+.content-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.timeline {
+  flex: 1;
+  flex-basis: 60%;
+  /*border: 1px solid black;*/
+  height: 100vw;
+  align-items: center;
+}
+
+.recommend {
+  flex: 1;
+  flex-basis: 40%;
+  /*border: 1px solid black;*/
+  height: 100vw;
+}

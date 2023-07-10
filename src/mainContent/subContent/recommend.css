@@ -1,0 +1,58 @@
+.profile-recommend-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.profile-item:not(:first-child):not(:last-child) {
+  margin-left: 10px;
+}
+
+.profile-button {
+  margin-left: auto;
+  margin-right: 3px;
+  font-weight: bold;
+  color: rgba(58, 160, 255, 0.932);
+  background: none;
+  border: none;
+}
+
+.profile-item {
+  font-size: 13px;
+}
+
+.profile-header {
+  font-weight: bold;
+  font-size: 13px;
+  /*border: black solid 1px;*/
+}
+
+.profile-followed {
+  font-size: 10px;
+  color: grey;
+}
+
+.recommend-container {
+  margin-top: 40px;
+  /*border: 1px solid red;*/
+}
+
+.profile-suggested {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.grey-word {
+  color: grey;
+}
+
+.myProfileName {
+  width: 150px;
+  /*border: 1px solid black;*/
+}

@@ -1,0 +1,40 @@
+.navigation {
+  position: fixed;
+  cursor: pointer;
+}
+
+.logo {
+  width: 110px;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.ULcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.sign {
+  margin-left: 18px;
+}
+
+.LIcontainer:hover .sign {
+  color: red;
+}
+
+.word {
+  margin-left: 8px;
+}
+
+.menu {
+  position: fixed;
+  bottom: 10px;
+}

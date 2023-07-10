@@ -1,0 +1,21 @@
+.post-position {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /*border: 1px solid red;*/
+  margin-top: 40px;
+}
+
+.stories {
+  display: flex;
+  flex-direction: row;
+  /*border: 1px solid blue;*/
+  width: 600px;
+  margin-right: 0px;
+  margin-left: auto;
+}
+/*
+.post-element {
+  border: 2px solid green;
+}
+*/
